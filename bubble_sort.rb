@@ -13,8 +13,10 @@ def bubble_sort(array)
       j += 1
     end
     sorted = false if swapped == 0
+    i = 0
+    j = 1
   end
   array
 end 
 
-p bubble_sort([1, 5, 2, 10])
+p bubble_sort([1, 5, 2, 10, 1, 2, 3, 4, 5, 400, 12, 12, 23, 1])

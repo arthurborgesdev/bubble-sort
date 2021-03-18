@@ -1,17 +1,10 @@
-def bubble_sort(array) 
-  i = 0
-  j = 1
-  sorted? = true
-  while sorted? 
-    while i < array.length - 1 
-      if array[i] > array[j]
-        array[i], array[j] = array[j], array[i]
-      end
-      i += 1
-      j += 1
+def bubble_sort(array)
+  array.each_index do |i|
+    array.each_index do |j|
+      array[i], array[j] = array[j], array[i] if array[i] < array[j]
     end
   end
   array
-end 
+end
 
-p bubble_sort([1, 2, 5, 10])
+

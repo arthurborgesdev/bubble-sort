@@ -4,7 +4,6 @@
 
 > In this project I learned how to setup the HTML & CSS Linters, how to use Github properly and, as a bonus, how to use `git revert`.
 
-![vscode-screenshot](./vscode-screenshot-hello-world.png)
 
 Additional description about the project and its features.
 
@@ -15,10 +14,7 @@ Additional description about the project and its features.
 - VSCode
 - Ruby
 - Ruby Style Guide
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Rubocop
 
 
 ## Getting Started

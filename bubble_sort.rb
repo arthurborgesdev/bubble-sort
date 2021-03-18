@@ -26,19 +26,11 @@ def bubble_sort_by(array)
       if orientation.positive?
         array[i], array[i + 1] = array[i + 1], array[i]
         swapped += 1
-      elsif orientation.negative?
-        array[i + 1], array[i]  = array[i], array[i + 1]
-        swapped += 1
       end
       i += 1
     end
     sorted = true if swapped.zero?
     i = 0
   end
-   p array
+  array
 end
-
-bubble_sort_by(["hi","hello","hey"]) do |left,right|
-  left.length - right.length
-end 
-
